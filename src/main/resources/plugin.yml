@@ -1,0 +1,12 @@
+main: cn.wode490390.nukkit.worldreset.WorldReset
+name: "WorldReset"
+description: "World reset plugin for Nukkit"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  worldreset.command:
+   description: "Allows a player to use all commands of 'WorldReset' plugin"
+   default: op

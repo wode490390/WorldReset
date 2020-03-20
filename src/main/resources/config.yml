@@ -1,0 +1,11 @@
+worlds:
+  # world name
+  example_world1:
+    # default is 10080 minutes (7 days)
+    period: 10080
+    keep-seed: false
+    keep-gamerule: true
+  example_world2:
+    period: 10080
+    keep-seed: false
+    keep-gamerule: true
